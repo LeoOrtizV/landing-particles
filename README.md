@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 LeoDev — Interactive Developer Portfolio
 
-## Getting Started
+An interactive developer portfolio built with Next.js, React, TypeScript, and Tailwind CSS. This project features a modern visual design, animated particle backgrounds, and reusable components to showcase projects, services, and professional information.
 
-First, run the development server:
+## 📸 Preview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![LeoDev Portfolio](./public/Home.png)
+
+## ✨ Features
+
+- **Interactive Particle Background:** Dynamic particle effects powered by tsParticles.
+- **Modern UI:** Dark-themed interface with purple backgrounds and orange accents.
+- **Smooth Animations:** Animated interface elements using Framer Motion.
+- **Reusable Components:** Modular component architecture for maintainable code.
+- **Animated Counters:** Numerical animations powered by React CountUp.
+- **Typing Animations:** Dynamic text effects using React Type Animation.
+- **Interactive Sliders:** Carousel and slider functionality powered by Swiper.
+- **Icon Library:** Interface icons provided by Lucide React.
+- **Responsive Layout:** Designed to support different screen sizes, subject to the implemented styles.
+- **Type Safety:** TypeScript integration for more reliable development.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js 14 | React framework and application routing |
+| React 18 | UI component library |
+| TypeScript | Static typing |
+| Tailwind CSS 3 | Utility-first styling |
+| tsParticles | Interactive particle effects |
+| Framer Motion | Animations and transitions |
+| React CountUp | Animated numerical counters |
+| React Type Animation | Typing text animations |
+| Swiper | Sliders and carousels |
+| Lucide React | Interface icons |
+| ESLint | Code quality and linting |
+| PostCSS | CSS processing |
+| Autoprefixer | CSS vendor prefixing |
+
+## 📂 Project Structure
+
+```text
+landing-particles/
+├── app/                    # Application pages and layouts
+├── components/             # Reusable UI components
+├── public/                 # Static assets and images
+├── utils/                  # Helper functions
+├── data.tsx                # Project data and content
+├── next.config.mjs         # Next.js configuration
+├── package.json            # Dependencies and scripts
+├── package-lock.json       # Dependency lockfile
+├── postcss.config.js       # PostCSS configuration
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript configuration
+└── README.md               # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Node.js
+- npm
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/LeoOrtizV/landing-particles.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Navigate to the project directory:
 
-## Deploy on Vercel
+   ```bash
+   cd landing-particles
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Install the dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the following address in your browser:
+
+   ```text
+   http://localhost:3000
+   ```
+
+## 📦 Available Scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Starts the development server |
+| `npm run build` | Builds the application for production |
+| `npm run start` | Starts the production server after building |
+| `npm run lint` | Runs the configured lint command |
+
+## 👤 Author
+
+**Leonardo Yeret Ortiz Valle**
+* Systems Engineering Student & AI Specialist
+* [GitHub](https://github.com/LeoOrtizV) | [LinkedIn](https://www.linkedin.com/in/leonardo-yeret-ortiz-valle-092346345/)
